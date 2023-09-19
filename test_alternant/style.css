@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'policeMenu';
+    src: url('./Ressources/Fonts/Copie\ de\ Inter-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'un';
+    src: url('./Ressources/Fonts/Copie\ de\ Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'deux';
+    src: url('./Ressources/Fonts/Copie\ de\ Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'trois';
+    src: url('./Ressources/Fonts/Copie\ de\ Poppins-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'quatre';
+    src: url('./Ressources/Fonts/Copie\ de\ Poppins-Regular.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    margin-right: -100px;
+}
+
+.logo  {
+    display: flex;
+    width: 45%;
+    height: 150px;
+    /* margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 5px; */
+    margin: 15px 0px 5px 20px;
+}
+
+.actu {
+    padding: 20px;
+    margin: 50px;
+    font-family: 'quatre';
+}
+
+.recall {
+    border: 2px solid black;
+    background-color: rgb(194, 194, 194);
+    padding: 20px;
+    /* margin: 50px; */
+    font-family: 'quatre';
+    text-decoration: none;
+}
+
+.iconCasque {
+    /* display: flex; */
+    width: 25px;
+    /* height: 100%; */
+}
+
+.contact {
+    border: 2px solid black;
+    background-color: rgb(1, 1, 139);
+    color: white;
+    padding: 20px;
+    margin: 50px;
+    font-family: 'quatre';
+    text-decoration: none;
+}
+
+.devis {
+    border: 2px solid black;
+    background-color: rgb(67, 255, 208);
+    color: white;
+    padding: 20px;
+    /* margin: 50px; */
+    margin-right: 0;
+    font-family: 'quatre';
+    text-decoration: none;
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(19, 0, 125);
+    font-family:'policeMenu';
+    font-size: 20px;
+}
+
+#menu a {
+    padding: 16px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+#menu .carreCoupeUn {
+    position: absolute;
+    width: 4%;
+    display: flex;
+    align-items: center;
+    margin-left: 100%;
+}
+
+#menu .carreCoupeDeux {
+    position: absolute;
+    width: 4%;
+    display: flex;
+    margin-right: 100%;
+    /* align-items: center; */
+}
+
+#picBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photoBox {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.textBox {
+    position: absolute;
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgba(39, 39, 120, 0.748);
+    padding: 40px;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+.textBox img {
+    width: 10%;
+    top: -33px;
+    position: absolute;
+    display: flex;
+}
+
+
+
+/* <box-icon type='solid' name='right-arrow'></box-icon>
+
+<box-icon name='left-arrow' type='solid' color='#fd8c39' ></box-icon>
+
+<i class='bx bxs-square' style='color:#fd8c39' ></i>
+
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFBJREFUSEtjZKAxYKSx+Qz0teBvj+V/aviIueQ43OEoPhi1ABa8o0FEMKGNBtFoEBEMAYIKRlPRcA+i/wy3mUuPq8G8Sd8qk2DgkqGA5j4AAJC/ShnD2X3uAAAAAElFTkSuQmCC"/> */
