@@ -37,52 +37,54 @@ body {
 
 .logo  {
     display: flex;
-    width: 45%;
+    width: 40%;
     height: 150px;
-    /* margin-top: 15px;
-    margin-left: 20px;
-    margin-bottom: 5px; */
     margin: 15px 0px 5px 20px;
 }
 
+#btnNavbar {
+    display: flex;
+}
+
 .actu {
+    display: flex;
+    align-items: center;
     padding: 20px;
-    margin: 50px;
+    margin-right: 40px;
     font-family: 'quatre';
 }
 
 .recall {
-    border: 2px solid black;
+    display: flex;
+    align-items: center;
     background-color: rgb(194, 194, 194);
     padding: 20px;
-    /* margin: 50px; */
+    margin-right: 40px;
     font-family: 'quatre';
     text-decoration: none;
 }
 
 .iconCasque {
-    /* display: flex; */
     width: 25px;
-    /* height: 100%; */
 }
 
 .contact {
-    border: 2px solid black;
+    display: flex;
+    align-items: center;
     background-color: rgb(1, 1, 139);
     color: white;
     padding: 20px;
-    margin: 50px;
+    margin-right: 40px;
     font-family: 'quatre';
     text-decoration: none;
 }
 
 .devis {
-    border: 2px solid black;
-    background-color: rgb(67, 255, 208);
+    display: flex;
+    align-items: center;
+    background-color: rgb(79, 167, 124);
     color: white;
     padding: 20px;
-    /* margin: 50px; */
-    margin-right: 0;
     font-family: 'quatre';
     text-decoration: none;
 }
@@ -104,7 +106,7 @@ body {
 
 #menu .carreCoupeUn {
     position: absolute;
-    width: 4%;
+    width: 75px;
     display: flex;
     align-items: center;
     margin-left: 100%;
@@ -112,10 +114,9 @@ body {
 
 #menu .carreCoupeDeux {
     position: absolute;
-    width: 4%;
+    width: 75px;
     display: flex;
     margin-right: 100%;
-    /* align-items: center; */
 }
 
 #picBox {
@@ -148,12 +149,126 @@ body {
     display: flex;
 }
 
+.textelements {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
 
+.textelements span {
+    color: rgb(116, 190, 255);
+}
 
-/* <box-icon type='solid' name='right-arrow'></box-icon>
+div.cards {
+    z-index: 2;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    text-align: center;
+    
+}
+  
+  div.card {
+    display: inline-block;
+    margin: 15px;
+    margin-bottom: 30px;
+    max-width: 350px;
+    transition: all 0.3s 0s ease-in;
+    margin-top: 0;
+    background-color: rgb(19, 0, 125);
+    border-radius: 8px;
+    box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.1);
+}
 
-<box-icon name='left-arrow' type='solid' color='#fd8c39' ></box-icon>
+div.card:hover {
+    background-color: red;
+}
 
-<i class='bx bxs-square' style='color:#fd8c39' ></i>
+  .cards .card__image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
 
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAFBJREFUSEtjZKAxYKSx+Qz0teBvj+V/aviIueQ43OEoPhi1ABa8o0FEMKGNBtFoEBEMAYIKRlPRcA+i/wy3mUuPq8G8Sd8qk2DgkqGA5j4AAJC/ShnD2X3uAAAAAElFTkSuQmCC"/> */
+  div.card-title {
+    padding: 6px 15px 10px;
+    position: relative;
+    color: white;
+  }
+
+  .carreAngle {
+    width: 500px;
+  }
+
+  #texteNumeroDeux {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #texteNumeroDeux span {
+    color: rgb(116, 190, 255);
+  }
+
+  .spaceCards {
+    display: flex;
+    justify-content: center;
+  }
+
+.spaceCards h4 {
+    margin: 0;
+}
+
+  .spaceCards img {
+    width: 100px;
+  }
+
+  .firstCard,
+  .secondCard,
+  .thirdCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 19%;
+    border: 2px solid black;
+    padding: 50px;
+  }
+
+  .btnContact {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .btnContact a {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(19, 0, 125);
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+    text-decoration: none;
+  }
+
+  .textSousFondBleu {
+    display: flex;
+    align-items: center;
+  }
+
+  .textSousFondBleu span {
+    color: aqua;
+  }
+
+  .textSousFondBleu img {
+    width: 50px;
+  }
+
+  .textSousFondBleu a {
+    display: flex;
+    align-items: center;
+  }
