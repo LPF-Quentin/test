@@ -135,11 +135,12 @@ body {
     position: absolute;
     display: flex;
     color: rgb(255, 255, 255);
-    background: rgba(39, 39, 120, 0.748);
-    padding: 40px;
+    background: rgba(35, 35, 121, 0.748);
+    padding: 50px;
     font-size: 50px;
     text-align: center;
     justify-content: center;
+    font-family: 'policeMenu';
 }
 
 .textBox img {
@@ -242,33 +243,178 @@ div.card:hover {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: 'un';
   }
 
   .btnContact a {
-    font-size: 20px;
+    font-size: 22px;
     color: white;
     background-color: rgb(19, 0, 125);
-    padding: 15px;
-    padding-left: 35px;
-    padding-right: 35px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     border: none;
     text-decoration: none;
   }
 
   .textSousFondBleu {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(19, 0, 125);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 15px;
+    font-family: 'deux';
+    margin-bottom: 50px;
   }
 
   .textSousFondBleu span {
-    color: aqua;
+    color: rgb(78, 134, 118);
+    padding-top: 48px;
+    display: flex;
   }
 
-  .textSousFondBleu img {
-    width: 50px;
-  }
-
-  .textSousFondBleu a {
+  .textSousFondBleu h1{
     display: flex;
     align-items: center;
   }
+
+  .textSousFondBleu h1 img {
+    width: 275px;
+    padding-bottom: 25px;
+  }
+
+  .textSousFondBleu a {
+    text-decoration: none;
+    background-color: rgb(78, 134, 118);
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'quatre';
+    font-size: 20px;
+  }
+
+  .textSousFondBleu a img {
+    width: 30px;
+  }
+
+#aboutCompany {
+  margin-top: 250px;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.textCompany h1 {
+  font-family: 'deux';
+  font-size: 40px;
+}
+
+.sousTitre {
+  color: rgb(102, 102, 102);
+  font-family: 'deux';
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.textCompany p {
+  color: rgb(145, 145, 145);
+  font-family: 'un';
+  font-size: 20px;
+}
+
+.textCompany span {
+  color: rgb(78, 134, 118);
+}
+
+.pictureCompany img{
+  display: flex;
+  width: 700px;
+}
+
+.titreCaroussel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'deux';
+}
+
+.titreCaroussel img {
+  width: 75px;
+}
+
+ /* .imgCaroussel {
+  height: 200px;
+  margin-right: 10px;
+  counter-increment: caroussel;
+ }
+
+ .imgCaroussel img {
+  width: 20%;
+ }
+
+ .imgCaroussel:before {
+  display: block;
+  text-align: center;
+  content: counter(caroussel);
+  line-height: 200px;
+  font-size: 80px;
+ } */
+
+ #carreOrange {
+  background-color: rgba(235, 160, 90, 0.363);
+  padding-top: 50px;
+ }
+
+ #formulaireContact {
+  background-color: rgb(19, 0, 125);
+  color: white;
+  font-family: 'deux';
+ }
+
+.titreFormulaire {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ .titreFormulaire img{
+  width: 75px;
+ }
+
+ .allFormulaire {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .leFormulaireEnQuestion {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .leFormulaireEnQuestion input {
+  border-radius: 10px;
+ }
+
+ .leFormulaireEnQuestion textarea {
+  border-radius: 10px;
+ }
+
+ .quatreElem {
+  display: flex;
+ }
